@@ -1,3 +1,7 @@
+mod lib;
+
+use crate::lib::greet;
+
 fn main() {
-    println!("Hello, world!");
+    greet();
 }
